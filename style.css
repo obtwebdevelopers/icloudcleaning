@@ -1,101 +1,107 @@
-body{ 
-background-color: white;
+body {
+  background-color: white;
 }
-    ul {
-      padding: 0;
-      list-style: none;
-    }
-    
-    ul li {
-      width: 150px;
-      display: inline-block;
-      position: relative;
-      text-align: center;
-      line-height: 21px;
-    }
-    
-    ul li a {
-      width: 100px;
-      border-radius: 6px;
-      padding: 5px 5px;
-      color: #6827bd;
-      text-decoration: none;
-    }
-  .sub{
-    background-color:#222;
-    border-radius:6px;
-  }
-    ul li a:hover {
-      color: #6827bd;
-    }
-    ul li ul {
-      display: none;
-      position: absolute;
-      z-index: 0;
-      left: 0;
-    }
-    
-    ul li:hover ul {
-      display: block;
-      color: #6827bd;
-      /* display the dropdown */
-    }
-    #sse2 {
-      /*You can decorate the menu's container, such as adding background images through this block*/
-      background-color: #222;
-      height: 38px;
-      padding: 15px;
-      border-radius: 6px;
-      box-sizing: content-box;
-    }
-    
-    #sses2 {
-      margin: 0 auto;
-      /*This will make the menu center-aligned. Removing this line will make the menu align left.*/
-    }
-    
-    #sses2 ul {
-      position: relative;
-      list-style-type: none;
-      float: left;
-      padding: 0;
-      margin: 0;
-    }
-    
-    #sses2 li {
-      float: left;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      background-image: none;
-    }
-    /*CSS for background bubble*/
-#sses2 li.highlight
-{
-    background:#036 url(mb2_2.gif) no-repeat center bottom;
-    top:0px;
-    height:35px;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    z-index: 1;
-    position: absolute;
-    overflow:hidden;
+
+ul li {
+  /*home - services*/
+  
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 21px;
 }
-    
-    #sses2 li a {
-      height: 30px;
-      padding-top: 10px;
-      margin: 0 20px;
-      /*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
-      
-      color: #2793bd;
-      font: normal 15px arial;
-      text-align: center;
-      text-decoration: none;
-      float: left;
-      display: block;
-      position: relative;
-      z-index:10;
-    }
-#footer{;}
+
+ul li a {
+  /*home through service individual boxes*/
+  
+  width: 100px;
+  border-radius: 6px;
+  padding: 5px 5px;
+  color: #6827bd;
+  text-decoration: none;
+}
+
+.sub {
+  /*drop downs*/
+  
+  background-color: #222;
+  border-radius: 6px;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+}
+
+ul li:hover ul {
+  display: block;
+  color: #6827bd;
+  /* display the dropdown */
+}
+
+#sse2 {
+  /*You can decorate the menu's container, such as adding background images through this block*/
+  
+  background-color: #222;
+  height: 38px;
+  padding: 15px;
+  border-radius: 6px;
+  box-sizing: content-box;
+}
+
+#sses2 {
+  margin: 0 auto;
+  /*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+
+#sses2 ul {
+  position: relative;
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+#sses2 li {
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-image: none;
+}
+/*CSS for background bubble*/
+
+#sses2 li.highlight {
+  background: #036 url(mb2_2.gif) no-repeat center bottom;
+  top: 0px;
+  height: 35px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+}
+
+#sses2 li a {
+  height: 30px;
+  padding-top: 10px;
+  margin: 0 20px;
+  /*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+  
+  color: #2793bd;
+  font: normal 15px arial;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+#footer {
+  ;
+}
