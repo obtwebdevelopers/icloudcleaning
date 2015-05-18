@@ -2,50 +2,11 @@ body {
   background-color: white;
 }
 
-ul li {
-  /*home - services*/
-  
-  width: 150px;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  line-height: 21px;
-}
-
-ul li a {
-  /*home through service individual boxes*/
-  
-  width: 100px;
-  border-radius: 6px;
-  padding: 5px 5px;
-  color: #6827bd;
-  text-decoration: none;
-}
-
-.sub {
-  /*drop downs*/
-  
-  background-color: #222;
-  border-radius: 6px;
-}
-
-ul li ul {
-  display: none;
-  position: absolute;
-  z-index: 0;
-  left: 0;
-}
-
-ul li:hover ul {
-  display: block;
-  color: #6827bd;
-  /* display the dropdown */
-}
-
 #sse2 {
   /*You can decorate the menu's container, such as adding background images through this block*/
+  /*menu background*/
   
-  background-color: #222;
+  background-color: #4a5c62;
   height: 38px;
   padding: 15px;
   border-radius: 6px;
@@ -72,10 +33,11 @@ ul li:hover ul {
   margin: 0;
   background-image: none;
 }
-/*CSS for background bubble*/
 
 #sses2 li.highlight {
-  background: #036 url(mb2_2.gif) no-repeat center bottom;
+  /*CSS for background bubble*/
+  
+  background: #fdf405 url(mb2_2.gif) no-repeat center bottom;
   top: 0px;
   height: 35px;
   border-radius: 6px;
@@ -91,9 +53,10 @@ ul li:hover ul {
   padding-top: 10px;
   margin: 0 20px;
   /*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+  /*text color*/
   
-  color: #2793bd;
-  font: normal 15px arial;
+  color: black;
+  font: normal bold 15px georgia sans;
   text-align: center;
   text-decoration: none;
   float: left;
@@ -103,5 +66,6 @@ ul li:hover ul {
 }
 
 #footer {
-  ;
+  background-color: #4a5c62;
+  color: #fdf405;
 }
