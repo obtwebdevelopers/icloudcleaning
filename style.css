@@ -17,7 +17,7 @@ body {
 /* Giving a background-color to the nav container. */
 
 nav { 
-	background-color: #2793bd;
+	background-color: #86f066 ;
 	border-radius: 15px;
 	}
 	
@@ -53,13 +53,14 @@ nav a {
 /* Background color change on Hover */
 
 nav a:hover { 
-	background-color: #fdf405; 
+	background-color: #5da847 ; 
 	line-height: 50px;
+	color:white;
 	}
 /* Specifiews active tab */
 	
 a#active {
-	background-color: #fdf405;
+	background-color: #5da847 ;
 	line-height: 50px;
 	}
 
