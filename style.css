@@ -22,7 +22,7 @@ nav {
 	}
 	
 /* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
+ * and adding "position:relative" */
  
  nav ul {
 	padding:0;
@@ -35,7 +35,6 @@ nav {
 
 nav ul li {
 	display:inline-block;
-	background-color: #4a5s62;
 	}
 	
 /* Styling the links */
@@ -57,14 +56,15 @@ nav a:hover {
 	line-height: 50px;
 	color:white;
 	}
-/* Specifiews active tab */
+/* Specifies active tab */
 	
 a#active {
 	background-color: #5da847 ;
 	line-height: 50px;
+	color:white;
 	}
 
-/* modifies the banner image*/
+/* modifies the banner image in Index.html */
 
 #banner img{
 	border: 2px solid;
@@ -99,26 +99,28 @@ h3 {
 	text-decoration: underline;
 	}
 
-ol li {
- text-decoration: none;
-	}
-
+/*Contactus form CSS */
+	
 form {
 	border: 2px solid;
 	width: 50%;
 	text-align: center;
 	margin: auto;
 	margin-top: 50px;
-	background-color: #2793bd;
+	background-color: #86f066;
 	border-radius:25px;
+	}
+	
+p {
+	font-family: 'Lora', serif;
 	}
 
 #fname {
-	margin: 15px;
+	margin: 5px;
 	}
 	
 #lname {
-	margin: 15px;
+	margin: 5px;
 	}
 	
 #organization {
