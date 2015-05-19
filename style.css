@@ -1,81 +1,141 @@
+/* CSS Document */
+
 body {
-  background-color: white;
-}
+	font-size:22px;
+	line-height: 32px;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+	}
+	
+#menu {
+	font-family: 'Lora', serif;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	}
+	
+/* Giving a background-color to the nav container. */
 
-#sse2 {
-  /*You can decorate the menu's container, such as adding background images through this block*/
-  /*menu background*/
-  
-  background-color: #4a5c62;
-  height: 38px;
-  padding: 15px;
-  border-radius: 6px;
-  box-sizing: content-box;
-}
+nav { 
+	background-color: #2793bd;
+	border-radius: 15px;
+	}
+	
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+ 
+ nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+/* Positioning the navigation items inline */
 
-#sses2 {
-  margin: 0 auto;
-  /*This will make the menu center-aligned. Removing this line will make the menu align left.*/
-}
+nav ul li {
+	display:inline-block;
+	background-color: #4a5s62;
+	}
+	
+/* Styling the links */
 
-#sses2 ul {
-  position: relative;
-  list-style-type: none;
-  float: left;
-  padding: 0;
-  margin: 0;
-}
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#222;
+	font-size:20px;
+	line-height: 60px;
+	border-radius:15px;
+	text-decoration:none;
+	}
+	
+/* Background color change on Hover */
 
-#sses2 li {
-  float: left;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background-image: none;
-}
+nav a:hover { 
+	background-color: #fdf405; 
+	line-height: 50px;
+	}
+/* Specifiews active tab */
+	
+a#active {
+	background-color: #fdf405;
+	line-height: 50px;
+	}
 
-#sses2 li.highlight {
-  /*CSS for background bubble*/
-  
-  background: #fdf405 url(mb2_2.gif) no-repeat center bottom;
-  top: 0px;
-  height: 35px;
-  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  z-index: 1;
-  position: absolute;
-  overflow: hidden;
-}
+/* modifies the banner image*/
 
-#sses2 li a {
-  height: 30px;
-  padding-top: 10px;
-  margin: 0 20px;
-  /*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
-  /*text color*/
-  
-  color: black;
-  font: normal bold 15px georgia sans;
-  text-align: center;
-  text-decoration: none;
-  float: left;
-  display: block;
-  position: relative;
-  z-index: 10;
-}
+#banner img{
+	border: 2px solid;
+	width: 100%;
+	height: 500px;
+	margin-top: 20px;
+	}
 
-#form {
-  border-style: ridge;
-  border-width: 1px;
-  border-color: blue;
-  font-size: 20px;
-  width: 500px;
-  text-align: center;
-  background-color: #4a5c62;
-}
+/* modifies the columns */
 
-#footer {
-  background-color: #4a5c62;
-  color: #fdf405;
-}
+#col1 {
+	float: left;
+	border: 1px solid;
+	width: 49%;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 50px;
+	}
+	
+#col2 {
+	float: right;
+	border: 1px solid;
+	width: 49%;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 50px;
+	}
+
+/* modifies the h3 tags */
+
+h3 {
+	text-decoration: underline;
+	}
+
+ol li {
+ text-decoration: none;
+	}
+
+form {
+	border: 2px solid;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #2793bd;
+	border-radius:25px;
+	}
+
+#fname {
+	margin: 15px;
+	}
+	
+#lname {
+	margin: 15px;
+	}
+	
+#organization {
+	margin: 15px;
+	}
+	
+#phonenumber {
+	margin: 15px;
+	}
+	
+#typeofservice {
+	margin: 15px;
+	}
+	
+#email {
+	margin: 15px;
+	}
+	
+#button {
+	margin: 15px;
+	}
