@@ -1,144 +1,248 @@
 /* CSS Document */
 
 body {
-	font-size:22px;
-	line-height: 32px;
-	word-wrap:break-word !important;
-	font-family: 'Open Sans', sans-serif;
-	}
-	
+font-size:22px;
+line-height: 32px;
+word-wrap:break-word !important;
+font-family: Lora, sans-serif;
+margin-top: auto;
+}
+
 #menu {
-	font-family: 'Lora', serif;
-	margin: auto;
-	width: 100%;
-	text-align: center;
-	}
-	
+font-family: 'Lora', serif;
+margin: auto;
+width: 100%;
+text-align: center;
+}
+
 /* Giving a background-color to the nav container. */
 
 nav { 
-	background-color: #86f066 ;
-	border-radius: 15px;
-	}
-	
+background-color: #86f066;
+border-radius: 15px;
+}
+
 /* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:relative" */
- 
- nav ul {
-	padding:0;
-	margin:0;
-	list-style: none;
-	position: relative;
-	}
-	
+* and adding "position:relative" */
+
+nav ul {
+padding:0;
+margin:0;
+list-style: none;
+position: relative;
+}
+
 /* Positioning the navigation items inline */
 
 nav ul li {
-	display:inline-block;
-	}
-	
+display:inline-block;
+}
+
 /* Styling the links */
 
 nav a {
-	display:block;
-	padding:0 10px;	
-	color:#222;
-	font-size:20px;
-	line-height: 60px;
-	border-radius:15px;
-	text-decoration:none;
-	}
-	
+display:block;
+padding:0 10px;	
+color:#222;
+font-size:20px;
+line-height: 60px;
+border-radius:15px;
+text-decoration:none;
+}
+
 /* Background color change on Hover */
 
 nav a:hover { 
-	background-color: #5da847 ; 
-	line-height: 50px;
-	color:white;
-	}
+background-color: #5da847; 
+line-height: 50px;
+color:white;
+}
 /* Specifies active tab */
-	
+
 a#active {
-	background-color: #5da847 ;
-	line-height: 50px;
-	color:white;
-	}
+background-color: #5da847 ;
+line-height: 50px;
+color:white;
+}
 
 /* modifies the banner image in Index.html */
 
 #banner img{
-	border: 2px solid;
-	width: 100%;
-	height: 500px;
-	margin-top: 20px;
-	}
-
-/* modifies the columns */
-
-#col1 {
-	float: left;
-	border: 1px solid;
-	width: 49%;
-	text-align: center;
-	text-decoration: none;
-	margin-bottom: 50px;
-	}
-	
-#col2 {
-	float: right;
-	border: 1px solid;
-	width: 49%;
-	text-align: center;
-	text-decoration: none;
-	margin-bottom: 50px;
-	}
+border: 2px solid;
+width: 100%;
+height: 500px;
+margin-right:0px;
+margin-left:0px;
+margin-bottom:0px;
+margin-top:5px;
+}
 
 /* modifies the h3 tags */
 
-h3 {
-	text-decoration: underline;
-	}
+h3{
+font-family: Lora;
+margin-bottom:0px;
+text-align: center;
+}	
+
+h4 {
+font-family: Lora;
+margin-bottom:0px;
+text-align: center;
+}
+
+/* Col CSS */
+
+#column {
+width: 100%;
+border: 1px solid;
+}
+
+#column .lsidebar {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+float: left;
+padding-right:10px;
+padding-left:10px;
+padding-bottom:auto;
+padding-top:auto;
+margin-bottom:5px;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+border: 2px solid;
+}
+
+#column .lsidebar .linkedin {
+height:50px;
+width:50px;
+padding-bottom:;
+padding-left:;
+padding-right:;
+padding-top:0px;
+margin-bottom:;
+margin-left:;
+margin-right:;
+margin-top:0px;
+}
+
+#column .lsidebar .facebook {
+height:50px;
+width:50px;
+padding-bottom:;
+padding-left:;
+padding-right:;
+padding-top:;
+margin-bottom:;
+margin-left:;
+margin-right:;
+margin-top:;
+}
+
+#column .lsidebar .twitter {
+height:50px;
+width:50px;
+padding-bottom:;
+padding-left:;
+padding-right:;
+padding-top:;
+margin-bottom:;
+margin-left:;
+margin-right:;
+margin-top:;
+}
+
+#column .col1  {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+width: 610px;
+padding-right:auto;
+padding-left:10px;
+padding-bottom:auto;
+padding-top:auto;
+overflow: auto;
+display:table-cell;
+text-align:left;
+border: 1px solid;
+}
+#column .col2 {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+width: 610px;
+padding-right:auto;
+padding-left:10px;
+padding-bottom:auto;
+padding-top:auto;
+overflow: auto;
+display:table-cell;
+border: 1px solid;
+}
+#column .rsidebar {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+width: auto;
+padding-right:10px;
+padding-left:10px;
+padding-bottom:auto;
+padding-top:auto;
+overflow: auto;
+display:table-cell;
+border: 2px solid;
+border-radius: 25px;
+}
+
+footer {
+background: #86f066; 
+text-align:right;
+width: 100%; 
+color:black;
+clear: both;
+}
 
 /*Contactus form CSS */
-	
+
 form {
-	border: 2px solid;
-	width: 50%;
-	text-align: center;
-	margin: auto;
-	margin-top: 50px;
-	background-color: #86f066;
-	border-radius:25px;
-	}
-	
+border: 2px solid;
+width: 50%;
+text-align: center;
+margin: auto;
+margin-top: 50px;
+background-color: #86f066;
+border-radius:25px;
+}
+
 p {
-	font-family: 'Lora', serif;
-	}
+font-family: 'Lora', serif;
+}
 
 #fname {
-	margin: 5px;
-	}
-	
+margin: 5px;
+}
+
 #lname {
-	margin: 5px;
-	}
-	
+margin: 5px;
+}
+
 #organization {
-	margin: 15px;
-	}
-	
+margin: 15px;
+}
+
 #phonenumber {
-	margin: 15px;
-	}
-	
+margin: 15px;
+}
+
 #typeofservice {
-	margin: 15px;
-	}
-	
+margin: 15px;
+}
+
 #email {
-	margin: 15px;
-	}
-	
+margin: 15px;
+}
+
 #button {
-	margin: 15px;
-	}
+margin: 15px;
+}
