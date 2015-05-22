@@ -5,29 +5,30 @@ font-size:22px;
 line-height: 32px;
 word-wrap:break-word !important;
 font-family: Lora, sans-serif;
-margin-top: auto;
+margin:0px;
 }
 
 #menu {
 font-family: 'Lora', serif;
-margin: auto;
-width: 100%;
+margin:0px;
+width: 100.25%;
 text-align: center;
+position:relative;
 }
 
 /* Giving a background-color to the nav container. */
 
 nav { 
 background-color: #86f066;
-border-radius: 15px;
+border-radius:0px;
+position:relative
 }
 
 /* Removing padding, margin and "list-style" from the "ul",
 * and adding "position:relative" */
 
 nav ul {
-padding:0;
-margin:0;
+margin:0px;
 list-style: none;
 position: relative;
 }
@@ -36,17 +37,17 @@ position: relative;
 
 nav ul li {
 display:inline-block;
+
 }
 
 /* Styling the links */
 
 nav a {
-display:block;
-padding:0 10px;	
+display:block;	
 color:#222;
 font-size:20px;
 line-height: 60px;
-border-radius:15px;
+border-radius:0px;
 text-decoration:none;
 }
 
@@ -74,7 +75,8 @@ height: 500px;
 margin-right:0px;
 margin-left:0px;
 margin-bottom:0px;
-margin-top:5px;
+margin-top:0px;
+position: relative;
 }
 
 /* modifies the h3 tags */
@@ -96,6 +98,11 @@ text-align: center;
 #column {
 width: 100%;
 border: 1px solid;
+position:relative;
+bottom:9px;
+
+
+
 }
 
 #column .lsidebar {
@@ -103,54 +110,31 @@ border: 1px solid;
 -moz-column-count: 1;
 column-count: 1;
 float: left;
-padding-right:10px;
-padding-left:10px;
-padding-bottom:auto;
-padding-top:auto;
-margin-bottom:5px;
-margin-left:5px;
-margin-right:5px;
-margin-top:5px;
+margin:0px;
 border: 2px solid;
 }
 
 #column .lsidebar .linkedin {
 height:50px;
 width:50px;
-padding-bottom:;
-padding-left:;
-padding-right:;
-padding-top:0px;
 margin-bottom:;
 margin-left:;
 margin-right:;
 margin-top:0px;
+
+
 }
 
 #column .lsidebar .facebook {
 height:50px;
 width:50px;
-padding-bottom:;
-padding-left:;
-padding-right:;
-padding-top:;
-margin-bottom:;
-margin-left:;
-margin-right:;
-margin-top:;
+
 }
 
 #column .lsidebar .twitter {
 height:50px;
 width:50px;
-padding-bottom:;
-padding-left:;
-padding-right:;
-padding-top:;
-margin-bottom:;
-margin-left:;
-margin-right:;
-margin-top:;
+
 }
 
 #column .col1  {
@@ -158,10 +142,6 @@ margin-top:;
 -moz-column-count: 1;
 column-count: 1;
 width: 610px;
-padding-right:auto;
-padding-left:10px;
-padding-bottom:auto;
-padding-top:auto;
 overflow: auto;
 display:table-cell;
 text-align:left;
@@ -172,10 +152,6 @@ border: 1px solid;
 -moz-column-count: 1;
 column-count: 1;
 width: 610px;
-padding-right:auto;
-padding-left:10px;
-padding-bottom:auto;
-padding-top:auto;
 overflow: auto;
 display:table-cell;
 border: 1px solid;
@@ -185,10 +161,6 @@ border: 1px solid;
 -moz-column-count: 1;
 column-count: 1;
 width: auto;
-padding-right:10px;
-padding-left:10px;
-padding-bottom:auto;
-padding-top:auto;
 overflow: auto;
 display:table-cell;
 border: 2px solid;
@@ -201,6 +173,8 @@ text-align:right;
 width: 100%; 
 color:black;
 clear: both;
+position:relative;
+bottom:30px;
 }
 
 /*Contactus form CSS */
