@@ -1,222 +1,244 @@
 /* CSS Document */
 
 body {
-font-size:22px;
-line-height: 32px;
-word-wrap:break-word !important;
-font-family: Lora, sans-serif;
-margin:0px;
+margin:0;
+font-family:'Lora';
 }
 
-#menu {
-font-family: 'Lora', serif;
-margin:0px;
-width: 100.25%;
-text-align: center;
-position:relative;
-}
+/*************************
+navigator CSS
+**************************/
 
-/* Giving a background-color to the nav container. */
+/*this centers the menu text */
 
-nav { 
+#menuwrapper{
+width:100%;
+height:45px;
+background-color:red;
+text-align:center;
 background-color: #86f066;
-border-radius:0px;
-position:relative
+font-family:'Lora';
 }
 
-/* Removing padding, margin and "list-style" from the "ul",
-* and adding "position:relative" */
+.nav {
+width:100%; 
+background-color: #86f066;
+display:inline;
+}
 
-nav ul {
-margin:0px;
-list-style: none;
+.nav ul {
+ display:inline;
+ list-style: none;
+}
+/* displays the menu text inline */
+
+.nav ul li {
+  display: inline-block;
+}
+/* CCS for the text of the menu */
+
+.nav ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #222;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+/* background color changes on hover*/
+
+.nav a:hover {
+  background-color: #5da847;
+  line-height: 30px;
+  color: white;
+}
+/* specifies active tab */
+
+.nav a#active {
+  background-color: #5da847;
+  line-height: 30px;
+  color: white;
+}
+
+#banner{
+width:100%;
+height:500px;
+}
+
+#banner .ICSimg {
+  height: 500px;
+  width: 100%;
+}
+/* Index.html column CSS */
+
+.cloudlogo{
+width:250px;
+height:125px;
 position: relative;
+bottom:589px;
 }
 
-/* Positioning the navigation items inline */
 
-nav ul li {
-display:inline-block;
-
+#column h3 {
+  margin-bottom: 0px;
+  text-align: center;
 }
 
-/* Styling the links */
-
-nav a {
-display:block;	
-color:#222;
-font-size:20px;
-line-height: 60px;
-border-radius:0px;
-text-decoration:none;
+#column .col1 {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  width: 30%;
+  height: 500px;
+  overflow: auto;
+  display: table-cell;
+  text-align: left;
+  border: 1px solid;
+  position: absolute;
+  left: 2%;
 }
 
-/* Background color change on Hover */
-
-nav a:hover { 
-background-color: #5da847; 
-line-height: 50px;
-color:white;
-}
-/* Specifies active tab */
-
-a#active {
-background-color: #5da847 ;
-line-height: 50px;
-color:white;
-}
-
-/* modifies the banner image in Index.html */
-
-#banner img{
-border: 2px solid;
-width: 100%;
-height: 500px;
-margin-right:0px;
-margin-left:0px;
-margin-bottom:0px;
-margin-top:0px;
-position: relative;
-}
-
-/* modifies the h3 tags */
-
-h3{
-font-family: Lora;
-margin-bottom:0px;
-text-align: center;
-}	
-
-h4 {
-font-family: Lora;
-margin-bottom:0px;
-text-align: center;
-}
-
-/* Col CSS */
-
-#column {
-width: 100%;
-border: 1px solid;
-position:relative;
-bottom:9px;
-
-
-
-}
-
-#column .lsidebar {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
-float: left;
-margin:0px;
-border: 2px solid;
-}
-
-#column .lsidebar .linkedin {
-height:50px;
-width:50px;
-margin-bottom:;
-margin-left:;
-margin-right:;
-margin-top:0px;
-
-
-}
-
-#column .lsidebar .facebook {
-height:50px;
-width:50px;
-
-}
-
-#column .lsidebar .twitter {
-height:50px;
-width:50px;
-
-}
-
-#column .col1  {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
-width: 610px;
-overflow: auto;
-display:table-cell;
-text-align:left;
-border: 1px solid;
-}
 #column .col2 {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
-width: 610px;
-overflow: auto;
-display:table-cell;
-border: 1px solid;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  width: 30%;
+  height: 500px;
+  overflow: auto;
+  display: table-cell;
+  text-align: center;
+  border: 1px solid;
+  position: absolute;
+  left: 35%;
+  
 }
+
 #column .rsidebar {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
-width: auto;
-overflow: auto;
-display:table-cell;
-border: 2px solid;
-border-radius: 25px;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  width: 30%;
+  height: 500px;
+  overflow: auto;
+  display: table-cell;
+  text-align: center;
+  border: 1px solid;
+  position: absolute;
+  left: 68%;
+}
+
+#img1 {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 100%;
+	display:table-cell;
+	padding-right:5px;
+	}
+#img2 {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 100%;
+	display:table-cell;
+	padding-right:5px;
+	}
+
+/*Business and Home pages' column CSS*/
+
+#sprinkles {
+  position: absolute;
+  width: 100%;
+}
+
+#sprinkles .col1 {
+  -webkit-column-count: 1;
+  display: table-cell;
+  overflow: auto;
+  text-align: left;
+  width: 50%;
+  height: auto;
+  border: solid 1px;
+  position: absolute;
+}
+
+#sprinkles .rsidebar {
+  -webkit-column-count: 1;
+  width: 50%;
+  height: auto;
+  overflow: auto;
+  display: table-cell;
+  text-align: center;
+  border: 1px solid;
+  position: absolute;
+  left: 50%;
+}
+
+#img1 {
+  -webkit-column-count: 1;
+  border-radius: 100%;
+  display: table-cell;
+  float: left;
+  height: 150px;
+  padding-right: 5px;
+  width: 150px;
 }
 
 footer {
-background: #86f066; 
-text-align:right;
-width: 100%; 
-color:black;
-clear: both;
-position:relative;
-bottom:30px;
+  background-color: #86f066;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  color: black;
 }
 
-/*Contactus form CSS */
-
+/******************************
+Contactus form CSS 
+*******************************/
 form {
-border: 2px solid;
-width: 50%;
-text-align: center;
-margin: auto;
-margin-top: 50px;
-background-color: #86f066;
-border-radius:25px;
+  border: 2px solid;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #86f066;
+  border-radius: 25px;
 }
 
 p {
-font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
-
 #fname {
-margin: 5px;
+  margin: 5px;
 }
 
 #lname {
-margin: 5px;
+  margin: 5px;
 }
 
 #organization {
-margin: 15px;
+  margin: 15px;
 }
 
 #phonenumber {
-margin: 15px;
+  margin: 15px;
 }
 
 #typeofservice {
-margin: 15px;
+  margin: 15px;
 }
 
 #email {
-margin: 15px;
+  margin: 15px;
 }
 
 #button {
-margin: 15px;
+  margin: 15px;
 }
