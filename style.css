@@ -69,6 +69,10 @@ height:500px;
   height: 500px;
   width: 100%;
 }
+#banner .ICSimg {
+  height: 500px;
+  width: 100%;
+ }
 
 .tagline2{
 position:relative;
