@@ -193,18 +193,7 @@ opacity:0.8;
 	padding-right:5px;
 	padding-top:10px;
 	}
-#img2 {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-	width: 150px;
-	height: 150px;
-	float: left;
-	padding-top:10px;
-	border-radius: 100%;
-	display:table-cell;
-	padding-right:5px;
-	}
+
 p{
 font-family:lora;
 font-weight:normal;
@@ -253,11 +242,21 @@ border-radius:5px;}
 
 #homeimg1 {
  -webkit-column-count: 1;
-width:450px;
+width:473px;
 height: 150px;
 margin:auto;
+padding-top:5px;
+border-radius:5px;
 }
-
+#img2 {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+	width: 473px;
+	height: 150px;
+	padding-top:5px;
+	border-radius:5px;
+		}
 footer {
 position:relative;
 background-color: #red;
