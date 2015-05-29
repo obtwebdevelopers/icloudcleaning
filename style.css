@@ -70,16 +70,22 @@ height:500px;
   width: 100%;
 }
 
-.tagline{
-width:300px;
-height:40px;
-background-color:#53963f;
-border-radius:5px;
+.tagline2{
 position:relative;
 margin:auto;
-margin-top:-300px;
-}
+margin-top:-350px;
+width:300px;
+height:80px;
+background-color:#53963f;
+border-radius:5px;
+text-align:center;
 
+}
+.tagword{
+background-color:#5da847;
+color:white;
+border-radius:5px;
+}
 h3{
 font-family:lora;
 text-align:center;
@@ -87,10 +93,12 @@ font-weight:normal;
 color:white;
 margin:auto;
 font-size:30px;
-padding-top:5px;}
+padding-top:5px;
+background-color:#5da847}
 
-h3:hover{
-opacity:0.4;}
+a{
+text-decoration:none;}
+
 /* Index.html column CSS */
 
 .cloudlogo{
@@ -100,54 +108,50 @@ position: relative;
 bottom:589px;
 }
 
-
+#column{
+position:relative;
+top:280px;
+}
 #column h3 {
   margin-bottom: 0px;
   text-align: center;
   
 }
-.col1 h3 {
-border-top:1px solid;
-border-bottom:1px solid;
-border-left:-1px solid;
-background-color: #86f066;
-display:block;
-
-}
-
-.col1 h3:hover {
-height:10px;
-background-color:#5da847;
-
-}
-#column{
-position:relative;
-top:270px;
+h4{
+font-family:lora;
+text-align:center;
+font-weight:normal;
+color:white;
+margin:auto;
+font-size:20px;
+padding-top:5px;
+background-color:#5da847
 }
 #column .col1 {
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
   width: 30%;
-  height: 450px;
+  height: 400px;
   overflow: auto;
   display: table-cell;
   text-align: left;
-  border: 1px solid;
+  
   position: absolute;
   left: 2%;
 }
+
 
 #column .col2 {
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
   width: 30%;
-  height: 450px;
+  height: 400px;
   overflow: auto;
   display: table-cell;
   text-align: left;
-  border: 1px solid;
+  
   position: absolute;
   left: 35%;
   
@@ -158,11 +162,9 @@ top:270px;
   -moz-column-count: 1;
   column-count: 1;
   width: 30%;
-  height: 450px;
+  height: 400px;
   overflow: auto;
   display: table-cell;
-  text-align: center;
-  border: 1px solid;
   position: absolute;
   left: 68%;
 }
@@ -177,6 +179,7 @@ top:270px;
 	border-radius: 100%;
 	display:table-cell;
 	padding-right:5px;
+	padding-top:10px;
 	}
 #img2 {
     -webkit-column-count: 1;
@@ -185,10 +188,22 @@ top:270px;
 	width: 150px;
 	height: 150px;
 	float: left;
+	padding-top:10px;
 	border-radius: 100%;
 	display:table-cell;
 	padding-right:5px;
 	}
+p{
+font-family:lora;
+font-weight:normal;
+color:black;
+margin:auto;
+font-size:17px;
+padding-top:5px;
+}
+#column h4{
+border-bottom:3px solid black;
+border-radius:5px;}
 
 /*Business and Home pages' column CSS*/
 
@@ -235,13 +250,12 @@ top:270px;
 }
 
 footer {
-  position:absolute;
-  top:102%;
-  background-color: #86f066;
-  text-align: center;
-  width: 100%;
-  clear: both;
-  color: black;
+position:relative;
+background-color: #red;
+text-align: center;
+width: 100%;
+color: white;
+clear:both;
 }
 
 /******************************
