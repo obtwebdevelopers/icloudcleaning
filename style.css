@@ -259,12 +259,12 @@ border-radius:5px;}
 }
 
 #homeimg1 {
- -webkit-column-count: 1;
-width:473px;
+
+-webkit-column-count: 1;
+width:450px;
 height: 150px;
-margin:auto;
-padding-top:5px;
-border-radius:5px;
+margin-left:auto;
+
 }
 #img2 {
     -webkit-column-count: 1;
@@ -283,6 +283,7 @@ footer {
   width: 100%;
   clear: both;
   color: black;
+
 }
 
 /******************************
@@ -327,4 +328,14 @@ p {
 
 #button {
   margin: 15px;
+}
+
+#footer p{
+position: fixed;
+color: #fff;
+background-color: #000;
+width: 100%;
+bottom: 1px;
+height: auto;
+text-align: right;
 }
