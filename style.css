@@ -1,6 +1,6 @@
-/* CSS Document */
+/***** UNIVERSAL CSS *****/
 
-body {
+body{
 margin:0;
 font-family:'Lora';
 background-repeat:no-repeat;
@@ -10,102 +10,82 @@ position:center center;
 background-color:#d8d8d8;
 }
 
-/*************************
-navigator CSS
-**************************/
+/** Logo **/
+.cloudlogo{
+position:fixed;
+width:250px;
+height:125px;
+top:0px;
+z-index:100;
+}
 
-/*this centers the menu text */
+/**Nav CSS**/
 
 #menuwrapper{
 position:fixed;
 width:100%;
 height:45px;
 text-align:center;
-background-color: #000;
-font-family:'Lora';
-
+background-color:#000;
+z-index:99;
 }
 
-.nav {
-width:100%; 
-background-color: #000;
-display:inline;
+.nav ul li{
+position:relative;
+display:inline-block;
+top:-15px;
 }
 
-.nav ul {
- display:inline;
- list-style: none;
-}
-/* displays the menu text inline */
-
-.nav ul li {
-  display: inline-block;
-}
-/* CCS for the text of the menu */
-
-.nav ul li a {
-  display: block;
-  padding: 0 10px;
-  color: #fff;
-  font-size: 20px;
-  line-height: 60px;
-  text-decoration: none;
+.nav ul li a{
+display:inline-block;
+padding:10px;
+color:#fff;
+font-size:20px;
+text-decoration:none;
 }
 
-/* background color changes on hover*/
-
-.nav a:hover {
-  background-color: #53963f;
-  line-height: 30px;
-  color: white;
-}
-/* specifies active tab */
-
-.nav a#active {
-  background-color: #53963f;
-  line-height: 30px;
-  color: white;
+.nav a:hover{
+background-color:#53963f;
 }
 
+.active{
+background-color:#53963f;
+line-height:15px;
+}
+
+/** LinkedIn Logo CSS **/
+
+#social{
+position:relative;
+top:-70px;
+width:35px;
+height:35px;
+right:5px;
+z-index:97;
+float:right;
+}
+
+#social .link{
+width:100%;
+height:100%;
+}
+
+/** Banner CSS **/
 #banner{
 width:100%;
 height:500px;
 }
 
-#banner .nyc1 {
-  height: 500px;
-  width: 100%;
-}
-#banner .ICSimg {
-  height: 500px;
-  width: 100%;
- }
-
-.tagline2{
-position:relative;
-margin:auto;
-margin-top:-350px;
-width:300px;
-height:80px;
-background-color:#53963f;
-border-radius:5px;
-text-align:center;
-
-}
-.tagline2:hover{
-opacity:0.5;}
-
-.tagword{
-background-color:#5da847;
-color:white;
-border-radius:5px;
+#banner .bannerimg{
+height:500px;
+width:100%;
 }
 
 h3{
 font-family:lora;
 text-align:center;
 font-weight:normal;
-color:white;
+color:#fff;
 margin:auto;
 font-size:30px;
 padding-top:5px;
@@ -114,23 +94,11 @@ background-color:#5da847}
 h3:hover{
 opacity:0.4;}
 
-a{
-text-decoration:none;}
-/* Index.html column CSS */
-
-.cloudlogo{
-position:fixed;
-width:250px;
-height:125px;
-top:0px;
-}
-
-
 h4{
 font-family:lora;
 text-align:center;
 font-weight:normal;
-color:white;
+color:#fff;
 margin:auto;
 font-size:20px;
 padding-top:5px;
@@ -141,79 +109,11 @@ border-radius:5px;}
 h4:hover{
 opacity:0.8;}
 
-
-#column{
-position:relative;
-top:280px;
+a{
+text-decoration:none;
+color: #5da847;
 }
 
-#column .col1 {
-    -webkit-column-count: 1;
-  -moz-column-count: 1;
-  column-count: 1;
-  width: 30%;
-  height: 500px;
-  overflow: auto;
-  display: table-cell;
-  text-align: left;
-    position: absolute;
-  left: 2%;
-}
-
-#column .col2 {
-   -webkit-column-count: 1;
-  -moz-column-count: 1;
-  column-count: 1;
-  width: 30%;
-  height: 500px;
-  overflow: auto;
-  display: table-cell;
-  text-align: left;
-  position: absolute;
-  left: 35%;
-  
-}
-
-#column .rsidebar {
-  -webkit-column-count: 1;
-  -moz-column-count: 1;
-  column-count: 1;
-  width: 30%;
-  height: 500px;
-  overflow: auto;
-  display: table-cell;
-  position: absolute;
-  left: 68%;
-  text-align:center;
-}
-#imagewrapper{
-position:relative;
-top:5px;
-width:100%;
-height:150px;
-margin:auto;
-}
-
-.homeimg1 {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-	position:relative;
-	width: 100%;
-	height: 150px;
-	margin:auto;
-	}
-.homeimg2 {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-	position:relative;
-	width: 280px;
-	height: 100px;
-	float: left;
-	display:table-cell;
-
-	}
 p{
 font-family:lora;
 font-weight:normal;
@@ -222,22 +122,114 @@ margin:auto;
 font-size:17px;
 padding-top:5px;
 }
-#column h4{
-border-bottom:3px solid black;
-border-radius:5px;}
 
-/*Business and Home pages' column CSS*/
+/** Column Image **/
+.colimg{
+-webkit-column-count:1;
+-moz-column-count:1;
+column-count:1;
+position:relative;
+width:100%;
+height:150px;
+margin:auto;
+}
+ /** Footer CSS **/
+#footer p{
+position:relative;
+margin-top:200px;
+color:#fff;
+background-color:#000;
+width:100%;
+text-align:right;
+height:auto;
+}
+
+/***** UNIVERSAL CSS ENDS *****/
+
+/***** Index CCS *****/
+
+.tagline{
+position:relative;
+margin:auto;
+margin-top:-350px;
+width:300px;
+height:95px;
+background-color:#53963f;
+border-radius:5px;
+text-align:center;
+}
+.tagline:hover{
+opacity:0.5;}
+
+.tagword{
+background-color:#5da847;
+color:#fff;
+border-radius:5px;
+}
+
+/** Column CSS **/
+#column{
+position:relative;
+top:10px;
+height:400px;
+}
+
+#column .col1{
+-webkit-column-count:1;
+-moz-column-count:1;
+column-count:1;
+width:30%;
+height:auto;
+overflow:auto;
+display:table-cell;
+text-align:left;
+position:absolute;
+left:2%;
+}
+
+#column .col2{
+-webkit-column-count:1;
+-moz-column-count:1;
+column-count:1;
+width:30%;
+height:auto;
+overflow:auto;
+display:table-cell;
+text-align:left;
+position:absolute;
+left:35%;
+}
+
+#column .rsidebar{
+-webkit-column-count:1;
+-moz-column-count:1;
+column-count:1;
+width:30%;
+height:auto;
+overflow:auto;
+display:table-cell;
+position:absolute;
+left:68%;
+text-align:center;
+}
+
+/***** Index CCS ENDS *****/
+
+/***** Business and Home CSS *****/
+
 
 #BusinessHome{
 position:relative;
 top:10px;
+height:400px;
 }
+
 #BusinessHome .col1 {
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
   width: 40%;
-  height: 450px;
+  height: auto;
   overflow: auto;
   display: table-cell;
   text-align: left;
@@ -258,44 +250,21 @@ top:10px;
   left: 55%;
 }
 
+/***** Business and Home CSS Ends *****/
 
+/***** Contact CSS *****/
 
-#homeimg1 {
- -webkit-column-count: 1;
-width:473px;
-height: 150px;
-margin:auto;
-padding-top:5px;
-border-radius:5px;
-
-}
-#img2 {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-	width: 473px;
-	height: 150px;
-	padding-top:5px;
-	border-radius:5px;
-		}
-
-
-/******************************
-Contactus form CSS 
-*******************************/
 form {
+position:relative;
   border: 2px solid;
   width: 50%;
   text-align: center;
   margin: auto;
-  margin-top: 50px;
+  top:100px;
   background-color: #86f066;
   border-radius: 25px;
 }
 
-p {
-  font-family: 'Lora', serif;
-}
 #fname {
   margin: 5px;
 }
@@ -324,12 +293,4 @@ p {
   margin: 15px;
 }
 
-#footer p{
-position: fixed;
-color: #fff;
-background-color: #000;
-width: 100%;
-bottom: 1px;
-height: auto;
-text-align: right;
-}
+/***** Contact CSS End *****/
