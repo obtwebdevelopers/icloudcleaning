@@ -109,6 +109,10 @@ border-radius:5px;}
 h4:hover{
 opacity:0.8;}
 
+/*CSS for the email in Hours of Operations*/
+.email h4:hover{
+opacity:1;}
+
 a{
 text-decoration:none;
 color: #5da847;
@@ -215,7 +219,7 @@ text-align:center;
 
 /***** Index CCS ENDS *****/
 
-/***** Business and Home CSS *****/
+/***** Business and Home Cleaning CSS *****/
 
 
 #BusinessHome{
