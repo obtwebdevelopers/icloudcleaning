@@ -74,7 +74,7 @@ height:100%;
 #webwrapper{
 width:1040px;
 height:940px;
-background-color: red;
+
 margin:auto;
 }
 
@@ -154,24 +154,7 @@ height:auto;
 
 /***** Index CCS *****/
 
-.tagline{
-position:relative;
-margin:auto;
-margin-top:-350px;
-width:300px;
-height:95px;
-background-color:#53963f;
-border-radius:5px;
-text-align:center;
-}
-.tagline:hover{
-opacity:0.5;}
 
-.tagword{
-background-color:#5da847;
-color:#fff;
-border-radius:5px;
-}
 
 /** Column CSS **/
 #column{
