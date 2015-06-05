@@ -79,8 +79,8 @@ position: relative;
 #webwrapper{
 width:1040px;
 height:1040px;
-background-color:green;
 margin:auto;
+background-color: #fff;
 }
 
 .bannerimg{
@@ -148,11 +148,14 @@ margin:auto;
 }
 
  /** Footer CSS **/
-#footer{
+#footer p{
 position:relative;
+color:#fff;
+text-align:right;
 width:100%;
-background-color:red;
+background-color:#000;
 height:30px;
+border-radius: 0px 0px 10px 10px;
 }
 
 /***** UNIVERSAL CSS ENDS *****/
@@ -166,7 +169,6 @@ height:30px;
 position:relative;
 top:10px;
 height:510px;
-background-color:blue;
 }
 
 #column .col1{
@@ -216,7 +218,7 @@ text-align:center;
 #BusinessHome{
 position:relative;
 top:10px;
-height:400px;
+height:510px;
 width: 1040px;
 }
 
