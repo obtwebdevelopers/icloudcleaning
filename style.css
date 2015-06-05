@@ -137,8 +137,11 @@ column-count:1;
 position:relative;
 width:100%;
 height:150px;
+border-radius: 30px;
+padding-top:5px;
 margin:auto;
 }
+
  /** Footer CSS **/
 #footer p{
 position:relative;
