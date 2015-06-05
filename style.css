@@ -209,7 +209,21 @@ position:absolute;
 left:68%;
 text-align:center;
 }
+#companyname{
+position:absolute;
+margin-top:-300px;
+margin-left:280px;
+width:500px;
+height:auto;
+background-color:#53963f;
+Text-align:center;
+border-radius:5px;
+}
 
+.homename{
+font-size:35px;
+font-family:'lora';
+color:white;}
 /***** Index CCS ENDS *****/
 
 /***** Business and Home Cleaning CSS *****/
@@ -254,13 +268,12 @@ width: 1040px;
 
 form {
 position:relative;
-  border: 2px solid;
-  width: 50%;
-  text-align: center;
-  margin: auto;
-  top:100px;
-  background-color: #53963f;
-  border-radius: 25px;
+border: 2px solid;
+width: 50%;
+text-align: center;
+margin: auto;top:100px;
+background-color: #53963f;
+border-radius: 25px;
 }
 
 #fname {
