@@ -78,8 +78,8 @@ position: relative;
 /** Banner CSS **/
 #webwrapper{
 width:1040px;
-height:940px;
-
+height:1040px;
+background-color:green;
 margin:auto;
 }
 
@@ -148,14 +148,11 @@ margin:auto;
 }
 
  /** Footer CSS **/
-#footer p{
+#footer{
 position:relative;
-margin-top:200px;
-color:#fff;
-background-color:#000;
 width:100%;
-text-align:right;
-height:auto;
+background-color:red;
+height:30px;
 }
 
 /***** UNIVERSAL CSS ENDS *****/
@@ -168,7 +165,8 @@ height:auto;
 #column{
 position:relative;
 top:10px;
-height:400px;
+height:510px;
+background-color:blue;
 }
 
 #column .col1{
