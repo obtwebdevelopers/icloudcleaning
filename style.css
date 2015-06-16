@@ -2,7 +2,7 @@
 
 body{
 margin:0;
-font-family:'Lora';
+font-family:'Lora', sans, arial;
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-size:cover;
@@ -94,7 +94,7 @@ width:100%;
 }
 
 h3{
-font-family:lora;
+font-family:'Lora', sans, arial;
 text-align:center;
 font-weight:normal;
 color:#fff;
@@ -107,7 +107,7 @@ h3:hover{
 opacity:0.4;}
 
 h4{
-font-family:lora;
+font-family:'Lora', sans, arial;
 text-align:center;
 font-weight:normal;
 color:#fff;
@@ -131,7 +131,7 @@ color: #5da847;
 }
 
 p{
-font-family:lora;
+font-family:'Lora', sans, arial;
 font-weight:normal;
 color:black;
 margin:auto;
@@ -202,6 +202,7 @@ position:absolute;
 left:35%;
 }
 
+
 #column .rsidebar{
 -webkit-column-count:1;
 -moz-column-count:1;
@@ -214,6 +215,7 @@ position:absolute;
 left:68%;
 text-align:center;
 }
+
 #companyname{
 position:absolute;
 margin-top:-300px;
@@ -225,9 +227,13 @@ Text-align:center;
 border-radius:5px;
 }
 
+.eco{
+height:200px;
+width:300px;
+}
 .homename{
 font-size:35px;
-font-family:'lora';
+font-family:'Lora', sans, arial;
 color:white;}
 /***** Index CCS ENDS *****/
 
@@ -254,12 +260,15 @@ width: 1040px;
   left: 5px;
 }
 
+.Categories
+{font-size:18px;}
+
 #BusinessHome .rsidebar {
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
   width: 510px;
-  height: 450px;
+  height: auto;
   overflow: auto;
   display: table-cell;
   text-align: center;
